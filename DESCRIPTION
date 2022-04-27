@@ -1,0 +1,16 @@
+Package: IVmm
+Title: InstrumentalVariableMixedModel
+Version: 0.0.0.9000
+Authors@R: 
+    person("Kateline", "Le Bourdonnec", , "kateline.le-bourdonnec@u-bordeaux.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package permits the estimation of causal inference using an IV methodology for longitudinal data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

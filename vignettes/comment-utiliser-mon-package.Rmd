@@ -1,0 +1,18 @@
+---
+title: "comment-utiliser-mon-package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{comment-utiliser-mon-package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup}
+library(IVmm)
+```
+
+# Instrumental Variable Mixed Model
+
+This package permits to estimate a novel Instrumental Variable methodology for longitudinal data. This method takes into account unmeasured confounder. 
+
+A correction for the standard error is implemented. 
